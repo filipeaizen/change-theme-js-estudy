@@ -67,3 +67,19 @@ body[data-theme="t-dark"]{
    align-items: center;
  
 }
+@media screen and (max-width:768px){
+    .container{
+        width: 200px;
+        height: 300px;
+    }
+    .my-title{
+        text-align: center;
+    }
+    .my-field {
+        width: 150px;
+    }
+    .my-button{
+        width: 150px;
+    }
+
+}
